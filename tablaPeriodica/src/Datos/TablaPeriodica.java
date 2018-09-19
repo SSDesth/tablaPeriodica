@@ -38,9 +38,11 @@ public class TablaPeriodica {
         Elemento salida = new Elemento();
         for(int i =0;i<elementos.size();i++){
             salida=elementos.get(i);
-            if(salida)
+            if(salida.getNumeroAtomico() == eNumeroAtomico){
+                return salida;
+            }
         }
-        return salida;
+        return null;
     }
      
      
