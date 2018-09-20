@@ -6,46 +6,46 @@
 package Datos;
 
 import java.util.List;
+import javax.xml.bind.annotation.XmlType;
 
 /**
  *
  * @author SSDesth
  */
+@XmlType()
 public class Elemento {
     private int numeroAtomico;
     private int simboloAtomico;
     private String nombre;
     private double PesoAtomico;
     private Espectro espectro;
-    private Familia familia;
+    private String familia;//String
     private double temperaturaMaxSolido;
     private double temperaturaMaxLiquido;
     private double temperaturaMaxGas;
     private int cantidadIsotopos;
     private List<Isotopo> isotopos;
-    private TipoFamilia subFamilia;
+    private String subFamilia;//String
 
     public Elemento() {
     }
 
-    public Elemento(int numeroAtomico, int simboloAtomico, String nombre, 
-            double PesoAtomico, Espectro espectro, Familia familia, 
-            double temperaturaMinSolido, double temperaturaMinLiquido, 
-            double temperaturaMinGas, int cantidadIsotopos, 
-            List<Isotopo> isotopos, TipoFamilia subFamilia) {
+    public Elemento(int numeroAtomico, int simboloAtomico, String nombre, double PesoAtomico, Espectro espectro, String familia, double temperaturaMaxSolido, double temperaturaMaxLiquido, double temperaturaMaxGas, int cantidadIsotopos, List<Isotopo> isotopos, String subFamilia) {
         this.numeroAtomico = numeroAtomico;
         this.simboloAtomico = simboloAtomico;
         this.nombre = nombre;
         this.PesoAtomico = PesoAtomico;
         this.espectro = espectro;
         this.familia = familia;
-        this.temperaturaMaxSolido = temperaturaMinSolido;
-        this.temperaturaMaxLiquido = temperaturaMinLiquido;
-        this.temperaturaMaxGas = temperaturaMinGas;
+        this.temperaturaMaxSolido = temperaturaMaxSolido;
+        this.temperaturaMaxLiquido = temperaturaMaxLiquido;
+        this.temperaturaMaxGas = temperaturaMaxGas;
         this.cantidadIsotopos = cantidadIsotopos;
         this.isotopos = isotopos;
         this.subFamilia = subFamilia;
     }
+
+   
 
     public int getNumeroAtomico() {
         return numeroAtomico;
@@ -87,14 +87,15 @@ public class Elemento {
         this.espectro = espectro;
     }
 
-    public Familia getFamilia() {
+    public String getFamilia() {
         return familia;
     }
 
-    public void setFamilia(Familia familia) {
+    public void setFamilia(String familia) {
         this.familia = familia;
     }
 
+    
     public double getTemperaturaMaxSolido() {
         return temperaturaMaxSolido;
     }
@@ -135,15 +136,15 @@ public class Elemento {
         this.isotopos = isotopos;
     }
 
-    public TipoFamilia getSubFamilia() {
+    public String getSubFamilia() {
         return subFamilia;
     }
 
-    public void setSubFamilia(TipoFamilia subFamilia) {
+    public void setSubFamilia(String subFamilia) {
         this.subFamilia = subFamilia;
     }
 
-     public String EstadoPorTemperatura(double eTemperatura){
+    public String EstadoPorTemperatura(double eTemperatura){
         if(eTemperatura<=temperaturaMaxSolido)
             return "Solido";
         else{

@@ -5,6 +5,7 @@
  */
 package tablaperiodica;
 
+import Logica.ControladorPrincipal;
 import UI.frmTablaPeriodica;
 
 /**
@@ -16,11 +17,12 @@ public class main {
     /**
      * @param args the command line arguments
      */
+    
+    public static ControladorPrincipal miControlador ;
+    
     public static void main(String[] args) {
-        frmTablaPeriodica ventana = new frmTablaPeriodica();
-        ventana.GeneradorDeBotones();
-        ventana.setVisible(true);
-        
+        miControlador= new  ControladorPrincipal();
+        miControlador.EjecutarVentanaTablaPeriodica();
     }
     
 }

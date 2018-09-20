@@ -5,10 +5,13 @@
  */
 package Datos;
 
+import javax.xml.bind.annotation.XmlType;
+
 /**
  *
  * @author SSDesth
  */
+@XmlType()
 public class Espectro {
 
     private final double velocidadDeLaLuz = 299792458.0;

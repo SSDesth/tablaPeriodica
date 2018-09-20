@@ -7,6 +7,10 @@ package UI;
 
 import Logica.BotonTablaPeriodica;
 import java.awt.Button;
+import java.awt.Image;
+import java.util.ArrayList;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -15,9 +19,9 @@ import java.awt.Button;
 public class frmTablaPeriodica extends javax.swing.JFrame {
 
     // es [alto][ancho]
-    BotonTablaPeriodica[][] MatrizBotones1 = new BotonTablaPeriodica[7][18];
-    BotonTablaPeriodica[][] MatrizBotones2 = new BotonTablaPeriodica[2][15];
-
+    private BotonTablaPeriodica[][] MatrizBotones1 = new BotonTablaPeriodica[7][18];
+    private BotonTablaPeriodica[][] MatrizBotones2 = new BotonTablaPeriodica[2][15];
+    
     /**
      * Creates new form frmTablaPeriodica
      */
@@ -34,37 +38,28 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
         jPanelMatriz1 = new javax.swing.JPanel();
+        lblMatriz1 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jPanelMatriz2 = new javax.swing.JPanel();
+        lblMatriz2 = new javax.swing.JLabel();
+        jPanelInfo = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 204));
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 203, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 412, Short.MAX_VALUE)
-        );
-
         jPanelMatriz1.setBackground(new java.awt.Color(255, 255, 255));
+
+        lblMatriz1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/Fondos/M1.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanelMatriz1Layout = new javax.swing.GroupLayout(jPanelMatriz1);
         jPanelMatriz1.setLayout(jPanelMatriz1Layout);
         jPanelMatriz1Layout.setHorizontalGroup(
             jPanelMatriz1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 540, Short.MAX_VALUE)
+            .addComponent(lblMatriz1, javax.swing.GroupLayout.PREFERRED_SIZE, 900, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         jPanelMatriz1Layout.setVerticalGroup(
             jPanelMatriz1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 210, Short.MAX_VALUE)
+            .addComponent(lblMatriz1, javax.swing.GroupLayout.PREFERRED_SIZE, 348, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
@@ -73,46 +68,60 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
 
         jPanelMatriz2.setBackground(new java.awt.Color(255, 255, 255));
 
+        lblMatriz2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Multimedia/Fondos/M2.png"))); // NOI18N
+
         javax.swing.GroupLayout jPanelMatriz2Layout = new javax.swing.GroupLayout(jPanelMatriz2);
         jPanelMatriz2.setLayout(jPanelMatriz2Layout);
         jPanelMatriz2Layout.setHorizontalGroup(
             jPanelMatriz2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 450, Short.MAX_VALUE)
+            .addComponent(lblMatriz2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanelMatriz2Layout.setVerticalGroup(
             jPanelMatriz2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 60, Short.MAX_VALUE)
+            .addComponent(lblMatriz2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        jPanelInfo.setBackground(new java.awt.Color(0, 102, 255));
+
+        javax.swing.GroupLayout jPanelInfoLayout = new javax.swing.GroupLayout(jPanelInfo);
+        jPanelInfo.setLayout(jPanelInfoLayout);
+        jPanelInfoLayout.setHorizontalGroup(
+            jPanelInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 180, Short.MAX_VALUE)
+        );
+        jPanelInfoLayout.setVerticalGroup(
+            jPanelInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 456, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jPanelMatriz2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanelMatriz1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(20, Short.MAX_VALUE)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 550, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(27, 27, 27)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanelMatriz1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanelMatriz2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addComponent(jPanelInfo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jPanelInfo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanelMatriz1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(36, 36, 36)
-                        .addComponent(jPanelMatriz2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(188, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                        .addComponent(jPanelMatriz2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(40, 40, 40))))
         );
 
         pack();
@@ -155,7 +164,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
 
     public void GeneradorDeBotones() {
 
-        int anchoYAlto = 30;
+        int anchoYAlto = 50;
         int numeroBoton = 1;
         boolean agregarBoton = true;
 
@@ -207,11 +216,23 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         }
 
     }
+    
+    public void CargarImagenes(){
+        
+        ImageIcon imagen = new ImageIcon("src/mulimedia/Fondos/M1.Png");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(lblMatriz1.getWidth(),
+                lblMatriz1.getHeight(), Image.SCALE_DEFAULT));
+        lblMatriz1.setIcon(icono);
+    
+    
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanelInfo;
     private javax.swing.JPanel jPanelMatriz1;
     private javax.swing.JPanel jPanelMatriz2;
+    private javax.swing.JLabel lblMatriz1;
+    private javax.swing.JLabel lblMatriz2;
     // End of variables declaration//GEN-END:variables
 }

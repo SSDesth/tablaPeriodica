@@ -22,7 +22,11 @@ public class BotonTablaPeriodica extends JButton implements ActionListener{
         super.setBounds(posX, posY, ancho, alto);
         this.ID=eID;
         addActionListener(this);
-        setText(" " + ID);
+        setText("" + ID);
+        setFont(new java.awt.Font("Times New Roman", 3, 7));
+        setOpaque(false);
+    
+        //setFont(new java.awt.Font("Times New Roman", 0, 12));
     }
     
     

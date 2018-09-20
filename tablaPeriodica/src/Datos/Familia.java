@@ -6,11 +6,13 @@
 package Datos;
 
 import java.util.List;
+import javax.xml.bind.annotation.XmlType;
 
 /**
  *
  * @author SSDesth
  */
+@XmlType()
 public class Familia {
     private String nombre;
     private String caracteristicas;
