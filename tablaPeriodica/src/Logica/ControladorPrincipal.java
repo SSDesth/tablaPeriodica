@@ -68,7 +68,10 @@ public class ControladorPrincipal {
 
 }
     
+public void mostrarElemento(int entradaNumeroAtomico){
+    miventana.MostrarElemento(entradaNumeroAtomico);
     
+}    
     
     
     
