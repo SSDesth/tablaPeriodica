@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
+import tablaperiodica.main;
 
 /**
  *
@@ -37,8 +38,8 @@ public class BotonTablaPeriodica extends JButton implements ActionListener{
      */
     @Override
     public void actionPerformed(ActionEvent e) {
-        JOptionPane.showMessageDialog(null,"Hola soy el elemento "+ID);
-    
+        //JOptionPane.showMessageDialog(null,"Hola soy el elemento "+ID);
+        main.miControlador.mostrarElemento(ID);
     }
     
    

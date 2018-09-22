@@ -11,6 +11,7 @@ import java.awt.Image;
 import java.util.ArrayList;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -218,14 +219,22 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
     }
     
     public void CargarImagenes(){
-        
+       /* 
         ImageIcon imagen = new ImageIcon("src/mulimedia/Fondos/M1.Png");
         Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(lblMatriz1.getWidth(),
                 lblMatriz1.getHeight(), Image.SCALE_DEFAULT));
         lblMatriz1.setIcon(icono);
-    
+    */
     
     }
+    
+    public void MostrarElemento(int Entrada){
+        JOptionPane.showMessageDialog(this,"Hola soy el elemento: "+Entrada);
+    
+    }
+    
+    
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
