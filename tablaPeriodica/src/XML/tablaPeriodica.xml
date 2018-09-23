@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TablaPeriodica>
+
+	<elementos>
+		<numeroAtomico>1</numeroAtomico>
+		<simboloAtomico>H</simboloAtomico>
+		<nombre>Hidrogeno</nombre>
+		<pesoAtomico>1.008</PesoAtomico>
+		<familia>No metal</familia>
+		<temperaturaMaxSolido>14.025</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>20.268</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>2</numeroAtomico>
+		<simboloAtomico>He</simboloAtomico>
+		<nombre>Helio</nombre>
+		<pesoAtomico>4.0026</PesoAtomico>
+		<familia>Gas Noble</familia>
+		<temperaturaMaxSolido>0.95</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4.22</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>3</numeroAtomico>
+		<simboloAtomico>Li</simboloAtomico>
+		<nombre>Litio</nombre>
+		<pesoAtomico>6.94</PesoAtomico>
+		<familia>Alcalinos</familia>
+		<temperaturaMaxSolido>453.69</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1615.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>4</numeroAtomico>
+		<simboloAtomico>Be</simboloAtomico>
+		<nombre>Berilio</nombre>
+		<pesoAtomico>9.0122</PesoAtomico>
+		<familia>Alcalinoterreo</familia>
+		<temperaturaMaxSolido>1560.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2742.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>5</numeroAtomico>
+		<simboloAtomico>B</simboloAtomico>
+		<nombre>Boro</nombre>
+		<pesoAtomico>10.81</PesoAtomico>
+		<familia>Metaloides</familia>
+		<temperaturaMaxSolido>2349.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4200.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>6</numeroAtomico>
+		<simboloAtomico>C</simboloAtomico>
+		<nombre>Carbono</nombre>
+		<pesoAtomico>12.011</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>3800.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>5100.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>7</numeroAtomico>
+		<simboloAtomico>N</simboloAtomico>
+		<nombre>Nitrogeno</nombre>
+		<pesoAtomico>14.007</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>63.14</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>77.35</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>8</numeroAtomico>
+		<simboloAtomico>O</simboloAtomico>
+		<nombre>Oxigeno</nombre>
+		<pesoAtomico>15.999</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>50.35</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>90.18</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>9</numeroAtomico>
+		<simboloAtomico>F</simboloAtomico>
+		<nombre>Fluor</nombre>
+		<pesoAtomico>18.998</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>53.53</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>85.03</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>10</numeroAtomico>
+		<simboloAtomico>Ne</simboloAtomico>
+		<nombre>Neon</nombre>
+		<pesoAtomico>20.180</PesoAtomico>
+		<familia>Gas Noble</familia>
+		<temperaturaMaxSolido>24.56</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>27.104</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>11</numeroAtomico>
+		<simboloAtomico>Na</simboloAtomico>
+		<nombre>Sodio</nombre>
+		<pesoAtomico>22.990</PesoAtomico>
+		<familia>Alcalinos</familia>
+		<temperaturaMaxSolido>370.87</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1156.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>12</numeroAtomico>
+		<simboloAtomico>Mg</simboloAtomico>
+		<nombre>Magnesio</nombre>
+		<pesoAtomico>24.305</PesoAtomico>
+		<familia>Alcalinoterreos</familia>
+		<temperaturaMaxSolido>923.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1363.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>13</numeroAtomico>
+		<simboloAtomico>Al</simboloAtomico>
+		<nombre>Aluminio</nombre>
+		<pesoAtomico>26.982</PesoAtomico>
+		<familia>Metales</familia>
+		<temperaturaMaxSolido>933.47</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2792.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>14</numeroAtomico>
+		<simboloAtomico>Si</simboloAtomico>
+		<nombre>Silicio</nombre>
+		<pesoAtomico>28.085</PesoAtomico>
+		<familia>Metaloides</familia>
+		<temperaturaMaxSolido>1687.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3173.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>15</numeroAtomico>
+		<simboloAtomico>P</simboloAtomico>
+		<nombre>Fosforo</nombre>
+		<pesoAtomico>30.974</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>317.3</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>550.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>16</numeroAtomico>
+		<simboloAtomico>S</simboloAtomico>
+		<nombre>Azufre</nombre>
+		<pesoAtomico>32.06</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>388.36</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>717.87</temperaturaMaxLiquido>
+		<cantidadIsotopos>5</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>17</numeroAtomico>
+		<simboloAtomico>Cl</simboloAtomico>
+		<nombre>Cloro</nombre>
+		<pesoAtomico>35.45</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>171.6</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>239.11</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>18</numeroAtomico>
+		<simboloAtomico>Ar</simboloAtomico>
+		<nombre>Argon</nombre>
+		<pesoAtomico>39.948</PesoAtomico>
+		<familia>Gases nobles</familia>
+		<temperaturaMaxSolido>83.8</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>87.3</temperaturaMaxLiquido>
+		<cantidadIsotopos>5</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>19</numeroAtomico>
+		<simboloAtomico>K</simboloAtomico>
+		<nombre>Potasio</nombre>
+		<pesoAtomico>39.098</PesoAtomico>
+		<familia>Alcalinos</familia>
+		<temperaturaMaxSolido>336.53</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1032.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>20</numeroAtomico>
+		<simboloAtomico>Ca</simboloAtomico>
+		<nombre>Calcio</nombre>
+		<pesoAtomico>40.078</PesoAtomico>
+		<familia>Alcalinoterreos</familia>
+		<temperaturaMaxSolido>1115.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1800.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>21</numeroAtomico>
+		<simboloAtomico>Sc</simboloAtomico>
+		<nombre>Escandio</nombre>
+		<pesoAtomico>44.956</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1814.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3103.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>22</numeroAtomico>
+		<simboloAtomico>Ti</simboloAtomico>
+		<nombre>Titanio</nombre>
+		<pesoAtomico>47.867</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1941.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3560.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>6</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>23</numeroAtomico>
+		<simboloAtomico>V</simboloAtomico>
+		<nombre>Vanadio</nombre>
+		<pesoAtomico>50.942</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>2175.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3682.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>24</numeroAtomico>
+		<simboloAtomico>Cr</simboloAtomico>
+		<nombre>Cromo</nombre>
+		<pesoAtomico>51.996</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>2130.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2945.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>5</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>25</numeroAtomico>
+		<simboloAtomico>Mn</simboloAtomico>
+		<nombre>Manganeso</nombre>
+		<pesoAtomico>54.938</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1519.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2334.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>26</numeroAtomico>
+		<simboloAtomico>Fe</simboloAtomico>
+		<nombre>Hierro</nombre>
+		<pesoAtomico>55.845</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1808.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3023.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>27</numeroAtomico>
+		<simboloAtomico>Co</simboloAtomico>
+		<nombre>Cobalto</nombre>
+		<pesoAtomico>58.933</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1768.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3200.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>5</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>28</numeroAtomico>
+		<simboloAtomico>Ni</simboloAtomico>
+		<nombre>Niquel</nombre>
+		<pesoAtomico>58.693</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1728.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2730.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>29</numeroAtomico>
+		<simboloAtomico>Cu</simboloAtomico>
+		<nombre>Cobre</nombre>
+		<pesoAtomico>63.546</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1357.77</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2835.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>30</numeroAtomico>
+		<simboloAtomico>Zn</simboloAtomico>
+		<nombre>Zinc</nombre>
+		<pesoAtomico>65.38</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>692.68</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1180.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>31</numeroAtomico>
+		<simboloAtomico>Ga</simboloAtomico>
+		<nombre>Galio</nombre>
+		<pesoAtomico>69.723</PesoAtomico>
+		<familia>Metales</familia>
+		<temperaturaMaxSolido>302.9146</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2477.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>32</numeroAtomico>
+		<simboloAtomico>Ge</simboloAtomico>
+		<nombre>Germanio</nombre>
+		<pesoAtomico>72.630</PesoAtomico>
+		<familia>Metaloides</familia>
+		<temperaturaMaxSolido>1211.4</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3093.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>33</numeroAtomico>
+		<simboloAtomico>As</simboloAtomico>
+		<nombre>Arsenico</nombre>
+		<pesoAtomico>74.922</PesoAtomico>
+		<familia>Metaloides</familia>
+		<temperaturaMaxSolido>887.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1090.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>34</numeroAtomico>
+		<simboloAtomico>Se</simboloAtomico>
+		<nombre>Selenio</nombre>
+		<pesoAtomico>78.971</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>494.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>957.8</temperaturaMaxLiquido>
+		<cantidadIsotopos>9</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>35</numeroAtomico>
+		<simboloAtomico>Br</simboloAtomico>
+		<nombre>Bromo</nombre>
+		<pesoAtomico>79.904</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>265.8</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>332.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>36</numeroAtomico>
+		<simboloAtomico>Kr</simboloAtomico>
+		<nombre>Kripton</nombre>
+		<pesoAtomico>83.798</PesoAtomico>
+		<familia>Gases nobles</familia>
+		<temperaturaMaxSolido>115.79</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>119.93</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>37</numeroAtomico>
+		<simboloAtomico>Rb</simboloAtomico>
+		<nombre>Rubidio</nombre>
+		<pesoAtomico>85.468</PesoAtomico>
+		<familia>Alcalinos</familia>
+		<temperaturaMaxSolido>312.46</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>961.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>38</numeroAtomico>
+		<simboloAtomico>Sr</simboloAtomico>
+		<nombre>Estroncio</nombre>
+		<pesoAtomico>87.62</PesoAtomico>
+		<familia>Alcalinoterreos</familia>
+		<temperaturaMaxSolido>1050.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1655.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>5</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>39</numeroAtomico>
+		<simboloAtomico>Y</simboloAtomico>
+		<nombre>Itrio</nombre>
+		<pesoAtomico>88.906</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1799.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3609.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>40</numeroAtomico>
+		<simboloAtomico>Zr</simboloAtomico>
+		<nombre>Circonio</nombre>
+		<pesoAtomico>91.224</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>3371.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4682.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>41</numeroAtomico>
+		<simboloAtomico>Nb</simboloAtomico>
+		<nombre>Niobio</nombre>
+		<pesoAtomico>92.906</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>2750.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>5017.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>5</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>42</numeroAtomico>
+		<simboloAtomico>Mo</simboloAtomico>
+		<nombre>Molibdeno</nombre>
+		<pesoAtomico>95.95</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>2896.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4912.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>10</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>43</numeroAtomico>
+		<simboloAtomico>Tc</simboloAtomico>
+		<nombre>Tecnecio</nombre>
+		<pesoAtomico>98.0</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>2430.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4538.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>44</numeroAtomico>
+		<simboloAtomico>Ru</simboloAtomico>
+		<nombre>Rutenio</nombre>
+		<pesoAtomico>101.07</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>2607.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4423.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>45</numeroAtomico>
+		<simboloAtomico>Rh</simboloAtomico>
+		<nombre>Rodio</nombre>
+		<pesoAtomico>102.91</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>2237.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3968.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>46</numeroAtomico>
+		<simboloAtomico>Pd</simboloAtomico>
+		<nombre>Paladio</nombre>
+		<pesoAtomico>106.42</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1828.05</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3236.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>47</numeroAtomico>
+		<simboloAtomico>Ag</simboloAtomico>
+		<nombre>Plata</nombre>
+		<pesoAtomico>107.87</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>1234.93</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2708.15</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>48</numeroAtomico>
+		<simboloAtomico>Cd</simboloAtomico>
+		<nombre>Cadmio</nombre>
+		<pesoAtomico>112.41</PesoAtomico>
+		<familia>Metales de transicion</familia>
+		<temperaturaMaxSolido>594.22</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1041.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>9</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>49</numeroAtomico>
+		<simboloAtomico>In</simboloAtomico>
+		<nombre>Indio</nombre>
+		<pesoAtomico>114.82</PesoAtomico>
+		<familia>Metales</familia>
+		<temperaturaMaxSolido>429.75</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2345.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>50</numeroAtomico>
+		<simboloAtomico>Sn</simboloAtomico>
+		<nombre>Estaño</nombre>
+		<pesoAtomico>118.71</PesoAtomico>
+		<familia>Metales</familia>
+		<temperaturaMaxSolido>505.08</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2875.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>11</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>51</numeroAtomico>
+		<simboloAtomico>Sb</simboloAtomico>
+		<nombre>Antimonio</nombre>
+		<pesoAtomico>121.76</PesoAtomico>
+		<familia>Metaloides</familia>
+		<temperaturaMaxSolido>903.78</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1870.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>52</numeroAtomico>
+		<simboloAtomico>Te</simboloAtomico>
+		<nombre>Telurio</nombre>
+		<pesoAtomico>127.60</PesoAtomico>
+		<familia>Metaloides</familia>
+		<temperaturaMaxSolido>722.66</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1261.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>53</numeroAtomico>
+		<simboloAtomico>I</simboloAtomico>
+		<nombre>Yodo</nombre>
+		<pesoAtomico>126.90</PesoAtomico>
+		<familia>No metales</familia>
+		<temperaturaMaxSolido>386.85</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>457.4</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>54</numeroAtomico>
+		<simboloAtomico>Xe</simboloAtomico>
+		<nombre>Xenon</nombre>
+		<pesoAtomico>131.29</PesoAtomico>
+		<familia>Gases nobles</familia>
+		<temperaturaMaxSolido>161.4</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>165.1</temperaturaMaxLiquido>
+		<cantidadIsotopos>13</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>55</numeroAtomico>
+		<simboloAtomico>Cs</simboloAtomico>
+		<nombre>Cesio</nombre>
+		<pesoAtomico>132.91</PesoAtomico>
+		<familia>Alcalinos</familia>
+		<temperaturaMaxSolido>301.59</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>944.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>56</numeroAtomico>
+		<simboloAtomico>Ba</simboloAtomico>
+		<nombre>Bario</nombre>
+		<pesoAtomico>137.33</PesoAtomico>
+		<familia>Alcalinoterreos</familia>
+		<temperaturaMaxSolido>1000.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2118.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>57</numeroAtomico>
+		<simboloAtomico>La</simboloAtomico>
+		<nombre>Lantano</nombre>
+		<pesoAtomico>138.91</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1193.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3730.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>58</numeroAtomico>
+		<simboloAtomico>Ce</simboloAtomico>
+		<nombre>Cerio</nombre>
+		<pesoAtomico>140.12</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1071.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3699.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>59</numeroAtomico>
+		<simboloAtomico>Pr</simboloAtomico>
+		<nombre>Praseodimio</nombre>
+		<pesoAtomico>140.91</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1204.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3793.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>60</numeroAtomico>
+		<simboloAtomico>Nd</simboloAtomico>
+		<nombre>Neodimio</nombre>
+		<pesoAtomico>144.24</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1297.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3373.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>61</numeroAtomico>
+		<simboloAtomico>Pm</simboloAtomico>
+		<nombre>Prometio</nombre>
+		<pesoAtomico>144.24</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1373.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3273.0</temperaturaMaxLiquido>
+		<cantidadIsotopos3>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>62</numeroAtomico>
+		<simboloAtomico>Sm</simboloAtomico>
+		<nombre>Samario</nombre>
+		<pesoAtomico>150.36</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1345.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2076.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>63</numeroAtomico>
+		<simboloAtomico>Eu</simboloAtomico>
+		<nombre>Europio</nombre>
+		<pesoAtomico>157.96</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1099.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1800.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>64</numeroAtomico>
+		<simboloAtomico>gd</simboloAtomico>
+		<nombre>Gadolinio</nombre>
+		<pesoAtomico>157.25</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1585.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3523.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>65</numeroAtomico>
+		<simboloAtomico>Tb</simboloAtomico>
+		<nombre>Terbio</nombre>
+		<pesoAtomico>158.93</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1629.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3503.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>66</numeroAtomico>
+		<simboloAtomico>Dy</simboloAtomico>
+		<nombre>Disprosio</nombre>
+		<pesoAtomico>162.50</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1680.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2840.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>67</numeroAtomico>
+		<simboloAtomico>Ho</simboloAtomico>
+		<nombre>Holmio</nombre>
+		<pesoAtomico>164.93</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1734.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2873.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>68</numeroAtomico>
+		<simboloAtomico>Er</simboloAtomico>
+		<nombre>Erbio</nombre>
+		<pesoAtomico>167.26</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1795.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3136.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>11</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>69</numeroAtomico>
+		<simboloAtomico>Tm</simboloAtomico>
+		<nombre>Tulio</nombre>
+		<pesoAtomico>167.26</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1734.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2220.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>5</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>70</numeroAtomico>
+		<simboloAtomico>Yb</simboloAtomico>
+		<nombre>Iterbio</nombre>
+		<pesoAtomico>173.05</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1097.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1467.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>11</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>71</numeroAtomico>
+		<simboloAtomico>Lu</simboloAtomico>
+		<nombre>Lutecio</nombre>
+		<pesoAtomico>174.97</PesoAtomico>
+		<familia>Lantanidos</familia>
+		<temperaturaMaxSolido>1925.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3675.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>72</numeroAtomico>
+		<simboloAtomico>Hf</simboloAtomico>
+		<nombre>Hafnio</nombre>
+		<pesoAtomico>178.49</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>2506.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4876.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+
+	<elementos>
+		<numeroAtomico>73</numeroAtomico>
+		<simboloAtomico>Ta</simboloAtomico>
+		<nombre>Tantalio</nombre>
+		<pesoAtomico>180.95</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>3290.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>5731.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+
+	<elementos>
+		<numeroAtomico>74</numeroAtomico>
+		<simboloAtomico>W</simboloAtomico>
+		<nombre>Wolframio</nombre>
+		<pesoAtomico>183.84</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>3695.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>6203.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>75</numeroAtomico>
+		<simboloAtomico>Re</simboloAtomico>
+		<nombre>Renio</nombre>
+		<pesoAtomico>186.21</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>3459,15</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>5869.15</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>76</numeroAtomico>
+		<simboloAtomico>Os</simboloAtomico>
+		<nombre>Osmio</nombre>
+		<pesoAtomico>190.23</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>3306.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>5285.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>11</cantidadIsotopos>
+	</elementos>
+
+
+	<elementos>
+		<numeroAtomico>77</numeroAtomico>
+		<simboloAtomico>Ir</simboloAtomico>
+		<nombre>Iridio</nombre>
+		<pesoAtomico>192.22</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>2739.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4701.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>10</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>78</numeroAtomico>
+		<simboloAtomico>Pt</simboloAtomico>
+		<nombre>Platino</nombre>
+		<pesoAtomico>195.08</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>2042.15</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4098.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>79</numeroAtomico>
+		<simboloAtomico>Au</simboloAtomico>
+		<nombre>Oro</nombre>
+		<pesoAtomico>196.97</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>1337.33</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3129.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>6</cantidadIsotopos>
+	</elementos>
+
+
+	<elementos>
+		<numeroAtomico>80</numeroAtomico>
+		<simboloAtomico>Hg</simboloAtomico>
+		<nombre>Mercurio</nombre>
+		<pesoAtomico>200.59</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>234.32</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>629.88</temperaturaMaxLiquido>
+		<cantidadIsotopos>11</cantidadIsotopos>
+	</elementos>
+
+
+	<elementos>
+		<numeroAtomico>81</numeroAtomico>
+		<simboloAtomico>Ti</simboloAtomico>
+		<nombre>Talio</nombre>
+		<pesoAtomico>204.38</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>577.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1746.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>82</numeroAtomico>
+		<simboloAtomico>Pb</simboloAtomico>
+		<nombre>Plomo</nombre>
+		<pesoAtomico>207.2</PesoAtomico>
+		<familia>Metales del bloque P</familia>
+		<temperaturaMaxSolido>600.61</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2022.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>6</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>83</numeroAtomico>
+		<simboloAtomico>Bi</simboloAtomico>
+		<nombre>Bismuto</nombre>
+		<pesoAtomico>208.98</PesoAtomico>
+		<familia>>Metales del bloque P</familia>
+		<temperaturaMaxSolido>544.4 </temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1837.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>84</numeroAtomico>
+		<simboloAtomico>Po</simboloAtomico>
+		<nombre>Polonio</nombre>
+		<pesoAtomico>209.0</PesoAtomico>
+		<familia>>Metales del bloque P</familia>
+		<temperaturaMaxSolido>527.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1235.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>85</numeroAtomico>
+		<simboloAtomico>At</simboloAtomico>
+		<nombre>Astato</nombre>
+		<pesoAtomico>210.0</PesoAtomico>
+		<familia>Metaloides</familia>
+		<temperaturaMaxSolido>575.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>9999.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>86</numeroAtomico>
+		<simboloAtomico>Rn</simboloAtomico>
+		<nombre>Radon</nombre>
+		<pesoAtomico>222.0</PesoAtomico>
+		<familia>Gases Nobles</familia>
+		<temperaturaMaxSolido>202.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>211.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>87</numeroAtomico>
+		<simboloAtomico>Fr</simboloAtomico>
+		<nombre>Francio</nombre>
+		<pesoAtomico>223.0</PesoAtomico>
+		<familia>Alcalinos</familia>
+		<temperaturaMaxSolido>300.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>950.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>88</numeroAtomico>
+		<simboloAtomico>Ra</simboloAtomico>
+		<nombre>Radio</nombre>
+		<pesoAtomico>226.0</PesoAtomico>
+		<familia>Alcalinoterreos</familia>
+		<temperaturaMaxSolido>5500.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>973.0</temperaturaMaxLiquido>
+		<cantidadIsotopos></cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>89</numeroAtomico>
+		<simboloAtomico>Ac</simboloAtomico>
+		<nombre>Actinio</nombre>
+		<pesoAtomico>227.0</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>1323.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3471.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>6</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>90</numeroAtomico>
+		<simboloAtomico>Th</simboloAtomico>
+		<nombre>Torio</nombre>
+		<pesoAtomico>231.04</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>2028.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>5061.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>6</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>91</numeroAtomico>
+		<simboloAtomico>Pa</simboloAtomico>
+		<nombre>Protactinio</nombre>
+		<pesoAtomico>231.04</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>2113.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4300.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>92</numeroAtomico>
+		<simboloAtomico>U</simboloAtomico>
+		<nombre>Uranio</nombre>
+		<pesoAtomico>238.03</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>1405.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4404.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>93</numeroAtomico>
+		<simboloAtomico>Np</simboloAtomico>
+		<nombre>Neptunio</nombre>
+		<pesoAtomico>244.0</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>910.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>4273.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>94</numeroAtomico>
+		<simboloAtomico>Pu</simboloAtomico>
+		<nombre>Plutonio</nombre>
+		<pesoAtomico>244</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>912,5</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3505.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>95</numeroAtomico>
+		<simboloAtomico>Am</simboloAtomico>
+		<nombre>Americo</nombre>
+		<pesoAtomico>243</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>1449.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>2880.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>96</numeroAtomico>
+		<simboloAtomico>Cm</simboloAtomico>
+		<nombre>Curio</nombre>
+		<pesoAtomico>247.0</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>1613.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>3383.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>97</numeroAtomico>
+		<simboloAtomico>Bk</simboloAtomico>
+		<nombre>Berkelio</nombre>
+		<pesoAtomico>247.0</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>98</numeroAtomico>
+		<simboloAtomico>Cf</simboloAtomico>
+		<nombre>Californio</nombre>
+		<pesoAtomico>251.0</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>99</numeroAtomico>
+		<simboloAtomico>Es</simboloAtomico>
+		<nombre>Einstenio</nombre>
+		<pesoAtomico>252.0</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>100</numeroAtomico>
+		<simboloAtomico>Fm</simboloAtomico>
+		<nombre>Fermio</nombre>
+		<pesoAtomico>257.0</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>101</numeroAtomico>
+		<simboloAtomico>Md</simboloAtomico>
+		<nombre>Mendelevio</nombre>
+		<pesoAtomico>259.0/PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>1100.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>9999.0</temperaturaMaxLiquido>
+		<cantidadIsotopos></cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>102</numeroAtomico>
+		<simboloAtomico>No</simboloAtomico>
+		<nombre>Nobelio</nombre>
+		<pesoAtomico>259.0</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>641,6</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1254.3</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>103</numeroAtomico>
+		<simboloAtomico>Lr</simboloAtomico>
+		<nombre>Lawrencio</nombre>
+		<pesoAtomico>266.0</PesoAtomico>
+		<familia>Actinidos</familia>
+		<temperaturaMaxSolido>443.8</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1428.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>104</numeroAtomico>
+		<simboloAtomico>rF</simboloAtomico>
+		<nombre>Rutherfordio</nombre>
+		<pesoAtomico>267.0</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>105</numeroAtomico>
+		<simboloAtomico>Db</simboloAtomico>
+		<nombre>Dubnio</nombre>
+		<pesoAtomico>268.0</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>106</numeroAtomico>
+		<simboloAtomico>Sg</simboloAtomico>
+		<nombre>Seaborgio</nombre>
+		<pesoAtomico>269.0</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>107</numeroAtomico>
+		<simboloAtomico>270</simboloAtomico>
+		<nombre>Bohrio</nombre>
+		<pesoAtomico>270</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>5</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>108</numeroAtomico>
+		<simboloAtomico>Hs</simboloAtomico>
+		<nombre>Hassio</nombre>
+		<pesoAtomico>277.0</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>109</numeroAtomico>
+		<simboloAtomico>Mt</simboloAtomico>
+		<nombre>Meitnerio</nombre>
+		<pesoAtomico>278.0</PesoAtomico>
+		<familia>Desconocida</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>110</numeroAtomico>
+		<simboloAtomico>Ds</simboloAtomico>
+		<nombre>Darmstadio</nombre>
+		<pesoAtomico>281.0</PesoAtomico>
+		<familia>Desconocida</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>11</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>111</numeroAtomico>
+		<simboloAtomico>Rg</simboloAtomico>
+		<nombre>Roentgenio</nombre>
+		<pesoAtomico>282.0</PesoAtomico>
+		<familia>Desconocida</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>112</numeroAtomico>
+		<simboloAtomico>Cn</simboloAtomico>
+		<nombre>Copernicio</nombre>
+		<pesoAtomico>285.0</PesoAtomico>
+		<familia>Metales de Transicion</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>8</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>113</numeroAtomico>
+		<simboloAtomico>Nh</simboloAtomico>
+		<nombre>Nihonium</nombre>
+		<pesoAtomico>286.0</PesoAtomico>
+		<familia>Desconocida</familia>
+		<temperaturaMaxSolido>700.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>1400.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>6</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>114</numeroAtomico>
+		<simboloAtomico>Fl</simboloAtomico>
+		<nombre>Flerovio</nombre>
+		<pesoAtomico>289.0</PesoAtomico>
+		<familia>Metales del bloque P</familia>
+		<temperaturaMaxSolido>340.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>420.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>7</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>115</numeroAtomico>
+		<simboloAtomico>Mc</simboloAtomico>
+		<nombre>Moscovium</nombre>
+		<pesoAtomico>290.0</PesoAtomico>
+		<familia>Desconocida</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>116</numeroAtomico>
+		<simboloAtomico>Lv</simboloAtomico>
+		<nombre>Livermorio</nombre>
+		<pesoAtomico>293.0</PesoAtomico>
+		<familia>Desconocida</familia>
+		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>4</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>117</numeroAtomico>
+		<simboloAtomico>Ts</simboloAtomico>
+		<nombre>Tennessine</nombre>
+		<pesoAtomico></PesoAtomico>
+		<familia>Desconocida</familia>
+		<temperaturaMaxSolido>573.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>823.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>2</cantidadIsotopos>
+	</elementos>
+
+	<elementos>
+		<numeroAtomico>118</numeroAtomico>
+		<simboloAtomico>Og</simboloAtomico>
+		<nombre>Oganesson</nombre>
+		<pesoAtomico>294.0</PesoAtomico>
+		<familia>Desconocida</familia>
+		<temperaturaMaxSolido>9999.0</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>320.0</temperaturaMaxLiquido>
+		<cantidadIsotopos>1</cantidadIsotopos>
+	</elementos>
+
+</TablaPeriodica>
