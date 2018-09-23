@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tablaPeriodica>
+    <Tamano>118</Tamano>
+    <elementos>
+		<numeroAtomico>1</numeroAtomico>
+		<simboloAtomico>H</simboloAtomico>
+		<nombre>Hidrogeno</nombre>
+		<PesoAtomico>1.008</PesoAtomico>
+		<familia>No metal</familia>
+		<temperaturaMaxSolido>14.025</temperaturaMaxSolido>
+		<temperaturaMaxLiquido>20.268</temperaturaMaxLiquido>
+		<cantidadIsotopos>3</cantidadIsotopos>
+	</elementos>
+</tablaPeriodica>
