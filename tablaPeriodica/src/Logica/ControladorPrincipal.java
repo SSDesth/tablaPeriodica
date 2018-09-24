@@ -5,11 +5,13 @@
  */
 package Logica;
 
+import Datos.Elemento;
 import Datos.TablaPeriodica;
 import UI.frmTablaPeriodica;
 import java.io.File;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -19,7 +21,7 @@ import javax.xml.bind.Unmarshaller;
  * @author SSDesth
  */
 public class ControladorPrincipal {
-    private TablaPeriodica miTabla;
+    private TablaPeriodica miTabla = new TablaPeriodica();
     private frmTablaPeriodica miventana;
 
     public ControladorPrincipal() {}
@@ -43,7 +45,7 @@ public class ControladorPrincipal {
     public void EjecutarVentanaTablaPeriodica(){
         miventana = new frmTablaPeriodica();
         miventana.GeneradorDeBotones();
-       // miventana.CargarImagenes();
+        miventana.CargarImagenes();
         miventana.setVisible(true);
         
     }
@@ -58,10 +60,10 @@ public class ControladorPrincipal {
         JAXBContext ctx = JAXBContext.newInstance(TablaPeriodica.class);
         //--------Crea la clase que permite leer archivo XML
         Unmarshaller ums = ctx.createUnmarshaller();
+     
+        miTabla = (TablaPeriodica) ums.unmarshal(new File(URL)); //error
         
-        miTabla = (TablaPeriodica)ums.unmarshal
-            (new File(URL));
-
+        
     } catch (JAXBException ex) {
         System.out.println(ex.toString());
     }
@@ -69,10 +71,13 @@ public class ControladorPrincipal {
 }
     
 public void mostrarElemento(int entradaNumeroAtomico){
-    miventana.MostrarElemento(entradaNumeroAtomico);
+    Elemento temporal;
+    temporal= miTabla.MostrarElemento(entradaNumeroAtomico);
+    
+    
+    miventana.MostrarElemento(temporal);
     
 }    
-    
-    
+       
     
 }

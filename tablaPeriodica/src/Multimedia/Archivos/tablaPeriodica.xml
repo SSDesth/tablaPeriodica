@@ -1303,5 +1303,220 @@
 		<temperaturaMaxLiquido>320.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>1</cantidadIsotopos>
 	</elementos>
+        
+        <familia>
+            <nombre>No metales</nombre>
+            <caracteristicas>Los Elementos no metales
+son elementos químicos que
+no son buenos conductores 
+de la corriente eléctrica 
+y el calor, son muy
+débiles por lo que no se 
+pueden estirar ni convertir 
+en una lámina</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Gases Nobles</nombre>
+            <caracteristicas>Los gases nobles son 
+un grupo de elementos 
+químicos con propiedades
+muy similares: por ejemplo,
+bajo condiciones normales,
+son gases monoatómicos 
+inodoros, incoloros y 
+presentan una reactividad 
+química muy baja. </caracteristicas>
+        </familia>
 
+        <familia>
+            <nombre>Alcalinos</nombre>
+            <caracteristicas>Los metales alcalinos o 
+simplemente alcalinos 
+(del árabe, alqali) son 
+los seis elementos situados    
+en el grupo I
+                
+Pertenecen a la serie de 
+elementos s, esto significa 
+que los metales alcalinos 
+tienen su electrón más 
+externo en un orbital s, 
+cada uno tiene solo un 
+electrón en su nivel 
+energético más externo(s),
+con buena tendencia a 
+perderlo</caracteristicas>
+        </familia>
+        
+          <familia>
+            <nombre>Alcalinoterreos</nombre>
+            <caracteristicas>Los metales alcalinotérreos 
+son un grupo de elementos 
+que se encuentran situados
+en el grupo 2 de la tabla 
+periódica.
+           
+El nombre «alcalinotérreos» 
+proviene del nombre que 
+recibían sus óxidos, 
+«tierras», que tienen 
+propiedades básicas 
+(alcalinas). Poseen una 
+electronegatividad 
+≤ 1,57 según la escala 
+de Pauling.
+
+Características: son 
+más duros que los 
+metales alcalinos, 
+tienen brillo y son 
+buenos conductores 
+eléctricos; menos 
+reactivos que los 
+alcalinos, buenos 
+agentes reductores 
+y forman compuestos 
+iónicos. Todos ellos 
+tienen dos (2) 
+electrones en su capa 
+más externa 
+(electrones de Valencia).</caracteristicas>
+        </familia>
+        
+         <familia>
+            <nombre>Metaloides</nombre>
+            <caracteristicas>Junto con los metales 
+y los no metales, 
+los semimetales 
+(también conocidos 
+como metaloides) 
+comprenden una de las
+tres categorías de 
+elementos químicos 
+siguiendo una 
+clasificación de 
+acuerdo con las 
+propiedades de 
+enlace e ionización.</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Metales de transicion</nombre>
+            <caracteristicas>son aquellos elementos 
+químicos que están
+situados en la parte
+central del sistema 
+periódico, en el 
+bloque d, cuya 
+principal 
+característica es 
+la inclusión en su
+configuración
+electrónica del 
+orbital d, 
+parcialmente lleno 
+de electrones. Esta 
+definición se puede 
+ampliar considerando 
+como elementos de 
+transición a 
+aquellos que poseen 
+electrones alojados 
+en el orbital d, 
+esto incluiría a 
+zinc, cadmio, y 
+mercurio.</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Metales</nombre>
+            <caracteristicas>Los elementos metálicos 
+situados en la tabla 
+periódica junto a 
+los metaloides 
+(o semimetales), 
+dentro del bloque p 
+se distinguen de los 
+metales de otros 
+bloques de la tabla; 
+en algunos casos son 
+denominados "otros 
+metales". Tienden a 
+ser blandos y a 
+tener puntos de 
+fusión bajos.</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Lantanidos</nombre>
+            <caracteristicas>Los lantanoides
+(nombre recomendado 
+por la IUPAC) o 
+lantánidos son un 
+grupo de elementos 
+que forman parte 
+del periodo 6 de 
+la tabla periódica
+de los elementos.
+Estos elementos 
+son llamados
+«tierras raras» 
+debido a que se 
+encuentran en 
+forma de óxidos, 
+y también, junto 
+con los actínidos,
+forman los
+«elementos de
+transición interna».</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Actinidos</nombre>
+            <caracteristicas>os actínidos (o 
+actinoides como la 
+IUPAC recomienda) 
+son un grupo de 
+elementos que 
+forman parte del 
+periodo 7 de la 
+tabla periódica. 
+Estos elementos, 
+junto con los 
+lantánidos, son 
+llamados elementos 
+de transición 
+interna. El nombre 
+procede del elemento 
+químico actinio, 
+que suele incluirse 
+dentro de este grupo, 
+que da un total de 
+15 elementos, desde 
+el de número atómico 
+89 (el actinio) al 
+103 (lawrencio)</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Desconocida</nombre>
+            <caracteristicas>Desconocida o tambien 
+artificiales son 
+todos aquellos 
+elementos que no
+aparecen de forma
+natural en la 
+tierra y solo
+puede ser creado
+articifialmente.
+            
+Son muy inestables
+ya se pueden 
+desaparecer en 
+microsegundos.Y
+todos son 
+Radiactivos</caracteristicas>
+        </familia>
+        
 </tablaPeriodica>

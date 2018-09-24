@@ -15,37 +15,17 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType()
 public class Elemento {
     private int numeroAtomico;
-    private int simboloAtomico;
+    private String simboloAtomico;
     private String nombre;
     private double PesoAtomico;
-    private Espectro espectro;
     private String familia;//String
     private double temperaturaMaxSolido;
     private double temperaturaMaxLiquido;
-    private double temperaturaMaxGas;
     private int cantidadIsotopos;
-    private List<Isotopo> isotopos;
-    private String subFamilia;//String
 
     public Elemento() {
     }
 
-    public Elemento(int numeroAtomico, int simboloAtomico, String nombre, double PesoAtomico, Espectro espectro, String familia, double temperaturaMaxSolido, double temperaturaMaxLiquido, double temperaturaMaxGas, int cantidadIsotopos, List<Isotopo> isotopos, String subFamilia) {
-        this.numeroAtomico = numeroAtomico;
-        this.simboloAtomico = simboloAtomico;
-        this.nombre = nombre;
-        this.PesoAtomico = PesoAtomico;
-        this.espectro = espectro;
-        this.familia = familia;
-        this.temperaturaMaxSolido = temperaturaMaxSolido;
-        this.temperaturaMaxLiquido = temperaturaMaxLiquido;
-        this.temperaturaMaxGas = temperaturaMaxGas;
-        this.cantidadIsotopos = cantidadIsotopos;
-        this.isotopos = isotopos;
-        this.subFamilia = subFamilia;
-    }
-
-   
 
     public int getNumeroAtomico() {
         return numeroAtomico;
@@ -55,13 +35,15 @@ public class Elemento {
         this.numeroAtomico = numeroAtomico;
     }
 
-    public int getSimboloAtomico() {
+    public String getSimboloAtomico() {
         return simboloAtomico;
     }
 
-    public void setSimboloAtomico(int simboloAtomico) {
+    public void setSimboloAtomico(String simboloAtomico) {
         this.simboloAtomico = simboloAtomico;
     }
+
+   
 
     public String getNombre() {
         return nombre;
@@ -79,13 +61,6 @@ public class Elemento {
         this.PesoAtomico = PesoAtomico;
     }
 
-    public Espectro getEspectro() {
-        return espectro;
-    }
-
-    public void setEspectro(Espectro espectro) {
-        this.espectro = espectro;
-    }
 
     public String getFamilia() {
         return familia;
@@ -112,14 +87,6 @@ public class Elemento {
         this.temperaturaMaxLiquido = temperaturaMaxLiquido;
     }
 
-    public double getTemperaturaMaxGas() {
-        return temperaturaMaxGas;
-    }
-
-    public void setTemperaturaMaxGas(double temperaturaMaxGas) {
-        this.temperaturaMaxGas = temperaturaMaxGas;
-    }
-
     public int getCantidadIsotopos() {
         return cantidadIsotopos;
     }
@@ -128,40 +95,24 @@ public class Elemento {
         this.cantidadIsotopos = cantidadIsotopos;
     }
 
-    public List<Isotopo> getIsotopos() {
-        return isotopos;
-    }
-
-    public void setIsotopos(List<Isotopo> isotopos) {
-        this.isotopos = isotopos;
-    }
-
-    public String getSubFamilia() {
-        return subFamilia;
-    }
-
-    public void setSubFamilia(String subFamilia) {
-        this.subFamilia = subFamilia;
-    }
-
     public String EstadoPorTemperatura(double eTemperatura){
+        if(temperaturaMaxSolido==0.0)
+            return "Desconocido";
         if(eTemperatura<=temperaturaMaxSolido)
             return "Solido";
         else{
             if(eTemperatura<=temperaturaMaxLiquido)
                 return "Liquido";
             else{
-                if(eTemperatura<=temperaturaMaxGas)
                 return "Gas";
             }
         }
-    
-        return "Desconocido";
+ 
+    }
+
+    @Override
+    public String toString() {
+        return "Elemento{" + "numeroAtomico=" + numeroAtomico + ", simboloAtomico=" + simboloAtomico + ", nombre=" + nombre + ", PesoAtomico=" + PesoAtomico + ", familia=" + familia + ", temperaturaMaxSolido=" + temperaturaMaxSolido + ", temperaturaMaxLiquido=" + temperaturaMaxLiquido + ", cantidadIsotopos=" + cantidadIsotopos + '}';
     }
    
-   
-    
-            
-            
-            
 }

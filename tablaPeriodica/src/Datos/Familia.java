@@ -16,15 +16,14 @@ import javax.xml.bind.annotation.XmlType;
 public class Familia {
     private String nombre;
     private String caracteristicas;
-    private List<TipoFamilia> subFamilias;
 
     public Familia() {
     }
 
-    public Familia(String nombre, String caracteristicas, List<TipoFamilia> subFamilias) {
+    public Familia(String nombre, String caracteristicas) {
         this.nombre = nombre;
         this.caracteristicas = caracteristicas;
-        this.subFamilias = subFamilias;
+        
     }
 
     public String getNombre() {
@@ -43,14 +42,5 @@ public class Familia {
         this.caracteristicas = caracteristicas;
     }
 
-    public List<TipoFamilia> getSubFamilias() {
-        return subFamilias;
-    }
-
-    public void setSubFamilias(List<TipoFamilia> subFamilias) {
-        this.subFamilias = subFamilias;
-    }
-    
-    
     
 }

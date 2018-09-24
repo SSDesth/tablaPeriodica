@@ -21,7 +21,10 @@ public class main {
     public static ControladorPrincipal miControlador ;
     
     public static void main(String[] args) {
+        
+        String URL= "src/Multimedia/Archivos/tablaPeriodica.xml";
         miControlador= new  ControladorPrincipal();
+        miControlador.leerXML(URL);
         miControlador.EjecutarVentanaTablaPeriodica();
     }
     

@@ -16,10 +16,13 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement
 public class TablaPeriodica {
-     private List<Elemento> elementos;
+
+    private int Tamano;
+    private List<Elemento> elementos;
+    private List<Familia> familia;
 
     public TablaPeriodica() {
-        this.elementos= new ArrayList<Elemento>();
+
     }
 
     public TablaPeriodica(List<Elemento> elementos) {
@@ -33,18 +36,40 @@ public class TablaPeriodica {
     public void setElementos(List<Elemento> elementos) {
         this.elementos = elementos;
     }
-    
-    public Elemento MostrarElemento(int eNumeroAtomico){
+
+    public List<Familia> getFamilia() {
+        return familia;
+    }
+
+    public void setFamilia(List<Familia> familia) {
+        this.familia = familia;
+    }
+
+    public Elemento MostrarElemento(int eNumeroAtomico) {
+
         Elemento salida = new Elemento();
-        for(int i =0;i<elementos.size();i++){
-            salida=elementos.get(i);
-            if(salida.getNumeroAtomico() == eNumeroAtomico){
+        for (int i = 0; i < elementos.size(); i++) {
+            salida = elementos.get(i);
+            if (salida.getNumeroAtomico() == eNumeroAtomico) {
                 return salida;
             }
         }
         return null;
     }
-     
-     
-    
+
+    public String MostrarInfoFamilia(String entrada) {
+        
+        Familia temp;
+        if (entrada != null) {
+            for (int i = 0; i < familia.size(); i++) {
+                temp = familia.get(i);
+                
+                if (entrada.equals(temp.getNombre())) {
+                    return temp.getCaracteristicas();
+                }
+            }
+        }
+        return "";
+    }
+
 }
