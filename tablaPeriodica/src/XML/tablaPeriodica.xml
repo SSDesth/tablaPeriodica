@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<TablaPeriodica>
+<tablaPeriodica>
 
 	<elementos>
 		<numeroAtomico>1</numeroAtomico>
@@ -669,7 +669,7 @@
 		<familia>Lantanidos</familia>
 		<temperaturaMaxSolido>1373.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>3273.0</temperaturaMaxLiquido>
-		<cantidadIsotopos3>3</cantidadIsotopos>
+		<cantidadIsotopos>3</cantidadIsotopos>
 	</elementos>
 
 	<elementos>
@@ -1304,4 +1304,4 @@
 		<cantidadIsotopos>1</cantidadIsotopos>
 	</elementos>
 
-</TablaPeriodica>
+</tablaPeriodica>
