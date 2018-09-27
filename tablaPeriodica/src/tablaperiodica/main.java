@@ -22,7 +22,7 @@ public class main {
     
     public static void main(String[] args) {
         
-        String URL= "src/Multimedia/Archivos/tablaPeriodica.xml";
+        String URL= "src/XML/tablaPeriodica.xml";
         miControlador= new  ControladorPrincipal();
         miControlador.leerXML(URL);
         miControlador.EjecutarVentanaTablaPeriodica();

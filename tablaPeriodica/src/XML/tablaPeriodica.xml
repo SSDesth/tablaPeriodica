@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <tablaPeriodica>
-
+    <Tamano>118</Tamano>
 	<elementos>
 		<numeroAtomico>1</numeroAtomico>
 		<simboloAtomico>H</simboloAtomico>
 		<nombre>Hidrogeno</nombre>
 		<pesoAtomico>1.008</pesoAtomico>
-		<familia>No metal</familia>
+		<familia>No metales</familia>
 		<temperaturaMaxSolido>14.025</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>20.268</temperaturaMaxLiquido>
 		<cantidadIsotopos>3</cantidadIsotopos>
@@ -17,7 +17,7 @@
 		<simboloAtomico>He</simboloAtomico>
 		<nombre>Helio</nombre>
 		<pesoAtomico>4.0026</pesoAtomico>
-		<familia>Gas Noble</familia>
+		<familia>Gases Nobles</familia>
 		<temperaturaMaxSolido>0.95</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>4.22</temperaturaMaxLiquido>
 		<cantidadIsotopos>3</cantidadIsotopos>
@@ -39,7 +39,7 @@
 		<simboloAtomico>Be</simboloAtomico>
 		<nombre>Berilio</nombre>
 		<pesoAtomico>9.0122</pesoAtomico>
-		<familia>Alcalinoterreo</familia>
+		<familia>Alcalinoterreos</familia>
 		<temperaturaMaxSolido>1560.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>2742.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>3</cantidadIsotopos>
@@ -105,7 +105,7 @@
 		<simboloAtomico>Ne</simboloAtomico>
 		<nombre>Neon</nombre>
 		<pesoAtomico>20.180</pesoAtomico>
-		<familia>Gas Noble</familia>
+		<familia>Gases Nobles</familia>
 		<temperaturaMaxSolido>24.56</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>27.104</temperaturaMaxLiquido>
 		<cantidadIsotopos>3</cantidadIsotopos>
@@ -193,7 +193,7 @@
 		<simboloAtomico>Ar</simboloAtomico>
 		<nombre>Argon</nombre>
 		<pesoAtomico>39.948</pesoAtomico>
-		<familia>Gases nobles</familia>
+		<familia>Gases Nobles</familia>
 		<temperaturaMaxSolido>83.8</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>87.3</temperaturaMaxLiquido>
 		<cantidadIsotopos>5</cantidadIsotopos>
@@ -391,7 +391,7 @@
 		<simboloAtomico>Kr</simboloAtomico>
 		<nombre>Kripton</nombre>
 		<pesoAtomico>83.798</pesoAtomico>
-		<familia>Gases nobles</familia>
+		<familia>Gases Nobles</familia>
 		<temperaturaMaxSolido>115.79</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>119.93</temperaturaMaxLiquido>
 		<cantidadIsotopos>8</cantidadIsotopos>
@@ -589,7 +589,7 @@
 		<simboloAtomico>Xe</simboloAtomico>
 		<nombre>Xenon</nombre>
 		<pesoAtomico>131.29</pesoAtomico>
-		<familia>Gases nobles</familia>
+		<familia>Gases Nobles</familia>
 		<temperaturaMaxSolido>161.4</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>165.1</temperaturaMaxLiquido>
 		<cantidadIsotopos>13</cantidadIsotopos>
@@ -787,7 +787,7 @@
 		<simboloAtomico>Hf</simboloAtomico>
 		<nombre>Hafnio</nombre>
 		<pesoAtomico>178.49</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>2506.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>4876.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>8</cantidadIsotopos>
@@ -799,7 +799,7 @@
 		<simboloAtomico>Ta</simboloAtomico>
 		<nombre>Tantalio</nombre>
 		<pesoAtomico>180.95</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>3290.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>5731.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>4</cantidadIsotopos>
@@ -811,7 +811,7 @@
 		<simboloAtomico>W</simboloAtomico>
 		<nombre>Wolframio</nombre>
 		<pesoAtomico>183.84</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>3695.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>6203.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>7</cantidadIsotopos>
@@ -822,7 +822,7 @@
 		<simboloAtomico>Re</simboloAtomico>
 		<nombre>Renio</nombre>
 		<pesoAtomico>186.21</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>3459,15</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>5869.15</temperaturaMaxLiquido>
 		<cantidadIsotopos>2</cantidadIsotopos>
@@ -833,7 +833,7 @@
 		<simboloAtomico>Os</simboloAtomico>
 		<nombre>Osmio</nombre>
 		<pesoAtomico>190.23</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>3306.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>5285.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>11</cantidadIsotopos>
@@ -845,7 +845,7 @@
 		<simboloAtomico>Ir</simboloAtomico>
 		<nombre>Iridio</nombre>
 		<pesoAtomico>192.22</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>2739.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>4701.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>10</cantidadIsotopos>
@@ -856,7 +856,7 @@
 		<simboloAtomico>Pt</simboloAtomico>
 		<nombre>Platino</nombre>
 		<pesoAtomico>195.08</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>2042.15</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>4098.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>7</cantidadIsotopos>
@@ -867,7 +867,7 @@
 		<simboloAtomico>Au</simboloAtomico>
 		<nombre>Oro</nombre>
 		<pesoAtomico>196.97</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>1337.33</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>3129.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>6</cantidadIsotopos>
@@ -879,7 +879,7 @@
 		<simboloAtomico>Hg</simboloAtomico>
 		<nombre>Mercurio</nombre>
 		<pesoAtomico>200.59</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>234.32</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>629.88</temperaturaMaxLiquido>
 		<cantidadIsotopos>11</cantidadIsotopos>
@@ -891,7 +891,7 @@
 		<simboloAtomico>Ti</simboloAtomico>
 		<nombre>Talio</nombre>
 		<pesoAtomico>204.38</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales</familia>
 		<temperaturaMaxSolido>577.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>1746.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>4</cantidadIsotopos>
@@ -902,7 +902,7 @@
 		<simboloAtomico>Pb</simboloAtomico>
 		<nombre>Plomo</nombre>
 		<pesoAtomico>207.2</pesoAtomico>
-		<familia>Metales del bloque P</familia>
+		<familia>Metales</familia>
 		<temperaturaMaxSolido>600.61</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>2022.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>6</cantidadIsotopos>
@@ -913,7 +913,7 @@
 		<simboloAtomico>Bi</simboloAtomico>
 		<nombre>Bismuto</nombre>
 		<pesoAtomico>208.98</pesoAtomico>
-		<familia>>Metales del bloque P</familia>
+		<familia>Metales</familia>
 		<temperaturaMaxSolido>544.4 </temperaturaMaxSolido>
 		<temperaturaMaxLiquido>1837.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>3</cantidadIsotopos>
@@ -924,7 +924,7 @@
 		<simboloAtomico>Po</simboloAtomico>
 		<nombre>Polonio</nombre>
 		<pesoAtomico>209.0</pesoAtomico>
-		<familia>>Metales del bloque P</familia>
+		<familia>Metales</familia>
 		<temperaturaMaxSolido>527.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>1235.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>3</cantidadIsotopos>
@@ -1035,7 +1035,7 @@
 		<nombre>Plutonio</nombre>
 		<pesoAtomico>244</pesoAtomico>
 		<familia>Actinidos</familia>
-		<temperaturaMaxSolido>912,5</temperaturaMaxSolido>
+		<temperaturaMaxSolido>912.5</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>3505.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>7</cantidadIsotopos>
 	</elementos>
@@ -1144,7 +1144,7 @@
 		<simboloAtomico>rF</simboloAtomico>
 		<nombre>Rutherfordio</nombre>
 		<pesoAtomico>267.0</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>1</cantidadIsotopos>
@@ -1155,7 +1155,7 @@
 		<simboloAtomico>Db</simboloAtomico>
 		<nombre>Dubnio</nombre>
 		<pesoAtomico>268.0</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>7</cantidadIsotopos>
@@ -1166,7 +1166,7 @@
 		<simboloAtomico>Sg</simboloAtomico>
 		<nombre>Seaborgio</nombre>
 		<pesoAtomico>269.0</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>1</cantidadIsotopos>
@@ -1177,7 +1177,7 @@
 		<simboloAtomico>270</simboloAtomico>
 		<nombre>Bohrio</nombre>
 		<pesoAtomico>270</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>5</cantidadIsotopos>
@@ -1188,7 +1188,7 @@
 		<simboloAtomico>Hs</simboloAtomico>
 		<nombre>Hassio</nombre>
 		<pesoAtomico>277.0</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>1</cantidadIsotopos>
@@ -1232,7 +1232,7 @@
 		<simboloAtomico>Cn</simboloAtomico>
 		<nombre>Copernicio</nombre>
 		<pesoAtomico>285.0</pesoAtomico>
-		<familia>Metales de Transicion</familia>
+		<familia>Metales de transicion</familia>
 		<temperaturaMaxSolido>0.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>0.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>8</cantidadIsotopos>
@@ -1254,7 +1254,7 @@
 		<simboloAtomico>Fl</simboloAtomico>
 		<nombre>Flerovio</nombre>
 		<pesoAtomico>289.0</pesoAtomico>
-		<familia>Metales del bloque P</familia>
+		<familia>Metales</familia>
 		<temperaturaMaxSolido>340.0</temperaturaMaxSolido>
 		<temperaturaMaxLiquido>420.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>7</cantidadIsotopos>
@@ -1303,5 +1303,220 @@
 		<temperaturaMaxLiquido>320.0</temperaturaMaxLiquido>
 		<cantidadIsotopos>1</cantidadIsotopos>
 	</elementos>
+        
+        <familia>
+            <nombre>No metales</nombre>
+            <caracteristicas>Los Elementos no metales
+son elementos químicos que
+no son buenos conductores 
+de la corriente eléctrica 
+y el calor, son muy
+débiles por lo que no se 
+pueden estirar ni convertir 
+en una lámina</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Gases Nobles</nombre>
+            <caracteristicas>Los gases nobles son 
+un grupo de elementos 
+químicos con propiedades
+muy similares: por ejemplo,
+bajo condiciones normales,
+son gases monoatómicos 
+inodoros, incoloros y 
+presentan una reactividad 
+química muy baja. </caracteristicas>
+        </familia>
 
+        <familia>
+            <nombre>Alcalinos</nombre>
+            <caracteristicas>Los metales alcalinos o 
+simplemente alcalinos 
+(del árabe, alqali) son 
+los seis elementos situados    
+en el grupo I
+                
+Pertenecen a la serie de 
+elementos s, esto significa 
+que los metales alcalinos 
+tienen su electrón más 
+externo en un orbital s, 
+cada uno tiene solo un 
+electrón en su nivel 
+energético más externo(s),
+con buena tendencia a 
+perderlo</caracteristicas>
+        </familia>
+        
+          <familia>
+            <nombre>Alcalinoterreos</nombre>
+            <caracteristicas>Los metales alcalinotérreos 
+son un grupo de elementos 
+que se encuentran situados
+en el grupo 2 de la tabla 
+periódica.
+           
+El nombre «alcalinotérreos» 
+proviene del nombre que 
+recibían sus óxidos, 
+«tierras», que tienen 
+propiedades básicas 
+(alcalinas). Poseen una 
+electronegatividad 
+≤ 1,57 según la escala 
+de Pauling.
+
+Características: son 
+más duros que los 
+metales alcalinos, 
+tienen brillo y son 
+buenos conductores 
+eléctricos; menos 
+reactivos que los 
+alcalinos, buenos 
+agentes reductores 
+y forman compuestos 
+iónicos. Todos ellos 
+tienen dos (2) 
+electrones en su capa 
+más externa 
+(electrones de Valencia).</caracteristicas>
+        </familia>
+        
+         <familia>
+            <nombre>Metaloides</nombre>
+            <caracteristicas>Junto con los metales 
+y los no metales, 
+los semimetales 
+(también conocidos 
+como metaloides) 
+comprenden una de las
+tres categorías de 
+elementos químicos 
+siguiendo una 
+clasificación de 
+acuerdo con las 
+propiedades de 
+enlace e ionización.</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Metales de transicion</nombre>
+            <caracteristicas>son aquellos elementos 
+químicos que están
+situados en la parte
+central del sistema 
+periódico, en el 
+bloque d, cuya 
+principal 
+característica es 
+la inclusión en su
+configuración
+electrónica del 
+orbital d, 
+parcialmente lleno 
+de electrones. Esta 
+definición se puede 
+ampliar considerando 
+como elementos de 
+transición a 
+aquellos que poseen 
+electrones alojados 
+en el orbital d, 
+esto incluiría a 
+zinc, cadmio, y 
+mercurio.</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Metales</nombre>
+            <caracteristicas>Los elementos metálicos 
+situados en la tabla 
+periódica junto a 
+los metaloides 
+(o semimetales), 
+dentro del bloque p 
+se distinguen de los 
+metales de otros 
+bloques de la tabla; 
+en algunos casos son 
+denominados "otros 
+metales". Tienden a 
+ser blandos y a 
+tener puntos de 
+fusión bajos.</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Lantanidos</nombre>
+            <caracteristicas>Los lantanoides
+(nombre recomendado 
+por la IUPAC) o 
+lantánidos son un 
+grupo de elementos 
+que forman parte 
+del periodo 6 de 
+la tabla periódica
+de los elementos.
+Estos elementos 
+son llamados
+«tierras raras» 
+debido a que se 
+encuentran en 
+forma de óxidos, 
+y también, junto 
+con los actínidos,
+forman los
+«elementos de
+transición interna».</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Actinidos</nombre>
+            <caracteristicas>os actínidos (o 
+actinoides como la 
+IUPAC recomienda) 
+son un grupo de 
+elementos que 
+forman parte del 
+periodo 7 de la 
+tabla periódica. 
+Estos elementos, 
+junto con los 
+lantánidos, son 
+llamados elementos 
+de transición 
+interna. El nombre 
+procede del elemento 
+químico actinio, 
+que suele incluirse 
+dentro de este grupo, 
+que da un total de 
+15 elementos, desde 
+el de número atómico 
+89 (el actinio) al 
+103 (lawrencio)</caracteristicas>
+        </familia>
+        
+        <familia>
+            <nombre>Desconocida</nombre>
+            <caracteristicas>Desconocida o tambien 
+artificiales son 
+todos aquellos 
+elementos que no
+aparecen de forma
+natural en la 
+tierra y solo
+puede ser creado
+articifialmente.
+            
+Son muy inestables
+ya se pueden 
+desaparecer en 
+microsegundos.Y
+todos son 
+Radiactivos</caracteristicas>
+        </familia>
+        
 </tablaPeriodica>
