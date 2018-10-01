@@ -1,5 +1,7 @@
 package Datos;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -118,6 +120,57 @@ public class TablaPeriodica {
             }
         }
         return "";
+    }
+    
+    /**
+     * Este metodo retorna una lista con los elementos ordenados alfabeticamente
+     * @return List 
+     */
+    public List<Elemento> OrdenamientoAlfaBetico(){
+      
+        List<Elemento> temporal = elementos;
+        Collections.sort(temporal, new Comparator<Elemento>() {
+            @Override
+            public int compare(Elemento objeto1, Elemento objeto2) {
+                return objeto1.getNombre().compareTo(objeto2.getNombre());
+            }
+        });
+        
+       return temporal;
+    
+    }
+    
+    /**
+     * Este metodo retorna una lista con los elementos ordenados por familia
+     * @return List 
+     */
+    public List<Elemento> OrdenamientoFamilia(){
+      
+        List<Elemento> temporal = elementos;
+        Collections.sort(temporal, new Comparator<Elemento>() {
+            @Override
+            public int compare(Elemento objeto1, Elemento objeto2) {
+                return objeto1.getFamilia().compareTo(objeto2.getFamilia());
+            }
+        });
+       return temporal;
+    
+    }
+    /**
+     * Este metodo retorna una lista con los elementos ordenados por Numero Atomico
+     * @return List 
+     */
+    public List<Elemento> OrdenamientoNumeroAtomico(){
+      
+        List<Elemento> temporal = elementos;
+        Collections.sort(temporal, new Comparator<Elemento>() {
+            @Override
+            public int compare(Elemento objeto1, Elemento objeto2) {
+                return objeto1.getNumeroAtomico()+"".compareTo(objeto2.getNumeroAtomico()+"");
+            }
+        });
+       return temporal;
+    
     }
 
 }

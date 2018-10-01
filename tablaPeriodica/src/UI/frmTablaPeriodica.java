@@ -4,6 +4,7 @@ import Datos.Elemento;
 import Logica.BotonTablaPeriodica;
 import java.awt.Color;
 import java.awt.Image;
+import java.util.List;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -31,6 +32,10 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
      */
     private JLabel[][] MatrizEtiquetas1 = new JLabel[7][18];
     private JLabel[][] MatrizEtiquetas2 = new JLabel[2][15];
+
+    /*Matriz que contendra todos los elementos en un orden que se 
+    establesera en ejecucion*/
+    private JLabel[][] MatrizEtiquetasOrdenadas = new JLabel[7][17];
 
     /**
      * Contructor default de frmTablaPeriodica
@@ -79,6 +84,15 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         cbFamilias = new javax.swing.JComboBox<>();
         jScrollPane1 = new javax.swing.JScrollPane();
         taCaracteristicas = new javax.swing.JTextArea();
+        jPanel3 = new javax.swing.JPanel();
+        jpOrdenamiento = new javax.swing.JPanel();
+        jPanel4 = new javax.swing.JPanel();
+        btnOrdenarAlfabeticamente = new javax.swing.JButton();
+        btnOrdenamientoFamilia = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        btnOrdenamientoNumeroAtomico = new javax.swing.JButton();
+        lblFondoOrdenamiento = new javax.swing.JLabel();
+        lblTituloOrdenamiento = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -361,6 +375,80 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Temperatura/Familia", jpEstado);
 
+        jpOrdenamiento.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jpOrdenamientoLayout = new javax.swing.GroupLayout(jpOrdenamiento);
+        jpOrdenamiento.setLayout(jpOrdenamientoLayout);
+        jpOrdenamientoLayout.setHorizontalGroup(
+            jpOrdenamientoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        jpOrdenamientoLayout.setVerticalGroup(
+            jpOrdenamientoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 350, Short.MAX_VALUE)
+        );
+
+        jPanel4.setBackground(new java.awt.Color(102, 255, 102));
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btnOrdenarAlfabeticamente.setText("Alfabeticamente");
+        btnOrdenarAlfabeticamente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOrdenarAlfabeticamenteActionPerformed(evt);
+            }
+        });
+        jPanel4.add(btnOrdenarAlfabeticamente, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 250, 158, -1));
+
+        btnOrdenamientoFamilia.setText("Familia");
+        btnOrdenamientoFamilia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOrdenamientoFamiliaActionPerformed(evt);
+            }
+        });
+        jPanel4.add(btnOrdenamientoFamilia, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 300, 158, -1));
+
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("Tipo De Ordenamientos:");
+        jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, -1, -1));
+
+        btnOrdenamientoNumeroAtomico.setText("Numero Atomico");
+        btnOrdenamientoNumeroAtomico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOrdenamientoNumeroAtomicoActionPerformed(evt);
+            }
+        });
+        jPanel4.add(btnOrdenamientoNumeroAtomico, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 350, 160, -1));
+        jPanel4.add(lblFondoOrdenamiento, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 570));
+
+        lblTituloOrdenamiento.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        lblTituloOrdenamiento.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblTituloOrdenamiento.setText("Ordenamiento por Numero Atomico");
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jpOrdenamiento, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblTituloOrdenamiento, javax.swing.GroupLayout.DEFAULT_SIZE, 850, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 46, Short.MAX_VALUE)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 246, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblTituloOrdenamiento, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jpOrdenamiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 572, Short.MAX_VALUE)
+        );
+
+        jTabbedPane1.addTab("Ordenamientos", jPanel3);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -406,6 +494,21 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         taCaracteristicas.setText(main.miControlador.getMiTabla().
                 MostrarInfoFamilia(cbFamilias.getItemAt(cbFamilias.getSelectedIndex())));
     }//GEN-LAST:event_cbFamiliasActionPerformed
+
+    private void btnOrdenarAlfabeticamenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdenarAlfabeticamenteActionPerformed
+        lblTituloOrdenamiento.setText("Ordenamiento Alfabeticamente");
+        OrdenamientoEtiquetasAlfaBeticamente();
+    }//GEN-LAST:event_btnOrdenarAlfabeticamenteActionPerformed
+
+    private void btnOrdenamientoFamiliaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdenamientoFamiliaActionPerformed
+        lblTituloOrdenamiento.setText("Ordenamiento por Familias");
+        OrdenamientoEtiquetasFamilias();
+    }//GEN-LAST:event_btnOrdenamientoFamiliaActionPerformed
+
+    private void btnOrdenamientoNumeroAtomicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdenamientoNumeroAtomicoActionPerformed
+        lblTituloOrdenamiento.setText("Ordenamiento por Numero Atomico");
+        OrdenamientoEtiquetasNumeroAtomico();
+    }//GEN-LAST:event_btnOrdenamientoNumeroAtomicoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -554,6 +657,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
     public void Cargador() {
         /*LLama el meto que genera Botones y etiquetas*/
         GeneradorDeBotones();
+        generadorEtiquetasOrdenamiento();
 
         /*Crea iconos y los coloca como fondos a etiquetas*/
         ImageIcon imagen = new ImageIcon("src/Multimedia/Fondos/fondoMenu2.jpg");
@@ -565,6 +669,11 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         Icon icono2 = new ImageIcon(imagen2.getImage().getScaledInstance(lblFondoTemperatura.getWidth(),
                 lblFondoTemperatura.getHeight(), Image.SCALE_DEFAULT));
         lblFondoTemperatura.setIcon(icono2);
+        
+        ImageIcon imagen3 = new ImageIcon("src/Multimedia/Fondos/fondoMenu.jpeg");
+        Icon icono3 = new ImageIcon(imagen3.getImage().getScaledInstance(lblFondoOrdenamiento.getWidth(),
+                lblFondoOrdenamiento.getHeight(), Image.SCALE_DEFAULT));
+        lblFondoOrdenamiento.setIcon(icono3);
 
         /*Establese el vaor minio y maximo junto con el cual aparecera el 
           jSlider*/
@@ -773,9 +882,143 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         }
 
     }
-    
+
+    /**
+     * Este metodo Genera 118 Etiquetas para que puedan ser ordenadas segun
+     * algun orden
+     */
+    public void generadorEtiquetasOrdenamiento() {
+        int contador = 1;
+        int anchoYAlto = 50;
+
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 17; j++) {
+                if (contador <= 118) {
+
+                    MatrizEtiquetasOrdenadas[i][j] = new JLabel(main.miControlador.getMiTabla().
+                            MostrarElemento(contador).getSimboloAtomico() + " - " + main.miControlador.getMiTabla().
+                            MostrarElemento(contador).getNumeroAtomico());
+                    MatrizEtiquetasOrdenadas[i][j].setBounds(anchoYAlto * j, anchoYAlto * i, anchoYAlto, anchoYAlto);
+                    MatrizEtiquetasOrdenadas[i][j].setBorder(javax.swing.BorderFactory.createEtchedBorder());
+                    MatrizEtiquetasOrdenadas[i][j].setBackground(Color.gray);
+                    MatrizEtiquetasOrdenadas[i][j].setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+                    MatrizEtiquetasOrdenadas[i][j].setOpaque(true);
+
+                    jpOrdenamiento.add(MatrizEtiquetasOrdenadas[i][j]);
+
+                }
+                contador++;
+            }
+        }
+
+    }
+
+    /**
+     * Este metodo consigue una lista ordenada Alfabeticamente y coloca los
+     * valores en las etiquetas
+     */
+    public void OrdenamientoEtiquetasAlfaBeticamente() {
+        int contador = 0;
+        List<Elemento> miListaOrdenada = main.miControlador.OrdenamientoAlfaBetico();
+
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 17; j++) {
+                if (contador <= 117) {
+
+                    MatrizEtiquetasOrdenadas[i][j].setText(miListaOrdenada.get(contador).getSimboloAtomico()
+                            + " - " + miListaOrdenada.get(contador).getNumeroAtomico());
+                    MatrizEtiquetasOrdenadas[i][j].setBackground(Color.LIGHT_GRAY);
+
+                }
+                contador++;
+            }
+        }
+
+    }
+
+    /**
+     * Este metodo consigue una lista ordenada por familia y coloca los valores
+     * en las etiquetas
+     */
+    public void OrdenamientoEtiquetasFamilias() {
+        int contador = 0;
+        List<Elemento> miListaOrdenada = main.miControlador.OrdenamientoFamilia();
+
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 17; j++) {
+                if (contador <= 117) {
+
+                    MatrizEtiquetasOrdenadas[i][j].setText(miListaOrdenada.get(contador).getSimboloAtomico()
+                            + " - " + miListaOrdenada.get(contador).getNumeroAtomico());
+                    MatrizEtiquetasOrdenadas[i][j].setBackground(SelecColorOrdenado(
+                            miListaOrdenada.get(contador).getFamilia()));
+
+                }
+                contador++;
+            }
+        }
+
+    }
+
+    /**
+     * Este metodo recibe la familia de un elemento y retorna un color
+     *
+     * @param eFamilia: String
+     * @return Color
+     */
+    public Color SelecColorOrdenado(String eFamilia) {
+        switch (eFamilia) {
+            case "No metales":
+                return Color.CYAN;
+            case "Gases Nobles":
+                return Color.YELLOW;
+            case "Alcalinos":
+                return Color.GREEN;
+            case "Alcalinoterreos":
+                return Color.LIGHT_GRAY;
+            case "Metaloides":
+                return Color.MAGENTA;
+            case "Metales de transicion":
+                return Color.ORANGE;
+            case "Lantanidos":
+                return Color.PINK;
+            case "Actinidos":
+                return Color.RED;
+            case "Desconocida":
+                return Color.WHITE;
+            default:
+                return Color.GRAY;
+        }
+
+    }
+
+     /**
+     * Este metodo consigue una lista ordenada por nuemro Atomico y coloca los valores
+     * en las etiquetas
+     */
+    public void OrdenamientoEtiquetasNumeroAtomico() {
+        int contador = 0;
+        List<Elemento> miListaOrdenada = main.miControlador.OrdenamientoNumeroAtomico();
+        //System.out.println(miListaOrdenada.toString());
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 17; j++) {
+                if (contador <= 117) {
+                    
+                    MatrizEtiquetasOrdenadas[i][j].setText(miListaOrdenada.get(contador).getSimboloAtomico()
+                            + " - " + miListaOrdenada.get(contador).getNumeroAtomico());
+                   MatrizEtiquetasOrdenadas[i][j].setBackground(Color.GRAY);
+
+                }
+                contador++;
+            }
+        }
+
+    }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnOrdenamientoFamilia;
+    private javax.swing.JButton btnOrdenamientoNumeroAtomico;
+    private javax.swing.JButton btnOrdenarAlfabeticamente;
     private javax.swing.JButton btnTemperatura;
     private javax.swing.JComboBox<String> cbFamilias;
     private javax.swing.JLabel jLabel1;
@@ -784,8 +1027,11 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanelInfo;
     private javax.swing.JPanel jPanelMatriz1;
     private javax.swing.JPanel jPanelMatriz2;
@@ -796,11 +1042,13 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
     private javax.swing.JPanel jpEstado;
     private javax.swing.JPanel jpEstado2;
     private javax.swing.JPanel jpEstados1;
+    private javax.swing.JPanel jpOrdenamiento;
     private javax.swing.JPanel jpTablaPeriodica;
     private javax.swing.JLabel lblCantIsotopos;
     private javax.swing.JLabel lblElemento;
     private javax.swing.JLabel lblFamiliaAtomica;
     private javax.swing.JLabel lblFondoMostrar;
+    private javax.swing.JLabel lblFondoOrdenamiento;
     private javax.swing.JLabel lblFondoTemperatura;
     private javax.swing.JLabel lblMatriz1;
     private javax.swing.JLabel lblMatriz2;
@@ -811,6 +1059,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
     private javax.swing.JLabel lblTempActual;
     private javax.swing.JLabel lblTemperaturaMaxLiquido;
     private javax.swing.JLabel lblTemperaturaMaxSolido;
+    private javax.swing.JLabel lblTituloOrdenamiento;
     private javax.swing.JTextArea taCaracteristicas;
     // End of variables declaration//GEN-END:variables
 }

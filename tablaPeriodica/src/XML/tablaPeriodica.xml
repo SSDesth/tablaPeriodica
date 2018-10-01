@@ -696,7 +696,7 @@
 
 	<elementos>
 		<numeroAtomico>64</numeroAtomico>
-		<simboloAtomico>gd</simboloAtomico>
+		<simboloAtomico>Gd</simboloAtomico>
 		<nombre>Gadolinio</nombre>
 		<pesoAtomico>157.25</pesoAtomico>
 		<familia>Lantanidos</familia>
@@ -1141,7 +1141,7 @@
 
 	<elementos>
 		<numeroAtomico>104</numeroAtomico>
-		<simboloAtomico>rF</simboloAtomico>
+		<simboloAtomico>Rf</simboloAtomico>
 		<nombre>Rutherfordio</nombre>
 		<pesoAtomico>267.0</pesoAtomico>
 		<familia>Metales de transicion</familia>
@@ -1174,7 +1174,7 @@
 
 	<elementos>
 		<numeroAtomico>107</numeroAtomico>
-		<simboloAtomico>270</simboloAtomico>
+		<simboloAtomico>Bh</simboloAtomico>
 		<nombre>Bohrio</nombre>
 		<pesoAtomico>270</pesoAtomico>
 		<familia>Metales de transicion</familia>

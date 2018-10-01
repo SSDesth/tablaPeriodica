@@ -4,6 +4,7 @@ import Datos.Elemento;
 import Datos.TablaPeriodica;
 import UI.frmTablaPeriodica;
 import java.io.File;
+import java.util.List;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -107,6 +108,32 @@ public class ControladorPrincipal {
         temporal = miTabla.MostrarElemento(entradaNumeroAtomico);
         miVentana.MostrarElemento(temporal);
 
+    }
+
+    /**
+     * Este metodo genera una lista de elementos y la retorna al frmTablaPeriodica
+     * @return 
+     */
+    public List<Elemento> OrdenamientoAlfaBetico() {
+        List<Elemento> temporal = miTabla.OrdenamientoAlfaBetico();
+        return temporal;
+    }
+    /**
+     * Este metodo genera una lista de elementos y la retorna al frmTablaPeriodica
+     * @return 
+     */
+    public List<Elemento> OrdenamientoFamilia(){
+        List<Elemento> temporal = miTabla.OrdenamientoFamilia();
+        return temporal;
+    }
+    
+    /**
+     * Este metodo genera una lista de elementos y la retorna al frmTablaPeriodica
+     * @return 
+     */
+    public List<Elemento> OrdenamientoNumeroAtomico(){
+        List<Elemento> temporal = miTabla.OrdenamientoNumeroAtomico();
+        return temporal;
     }
 
 }
