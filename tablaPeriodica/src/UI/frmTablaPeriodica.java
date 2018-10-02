@@ -91,6 +91,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         btnOrdenamientoFamilia = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         btnOrdenamientoNumeroAtomico = new javax.swing.JButton();
+        btnOrdenamientoIsotopos = new javax.swing.JButton();
         lblFondoOrdenamiento = new javax.swing.JLabel();
         lblTituloOrdenamiento = new javax.swing.JLabel();
 
@@ -418,6 +419,14 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
             }
         });
         jPanel4.add(btnOrdenamientoNumeroAtomico, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 350, 160, -1));
+
+        btnOrdenamientoIsotopos.setText("Cantidad Isotopos");
+        btnOrdenamientoIsotopos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOrdenamientoIsotoposActionPerformed(evt);
+            }
+        });
+        jPanel4.add(btnOrdenamientoIsotopos, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 400, 160, -1));
         jPanel4.add(lblFondoOrdenamiento, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 570));
 
         lblTituloOrdenamiento.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
@@ -509,6 +518,11 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         lblTituloOrdenamiento.setText("Ordenamiento por Numero Atomico");
         OrdenamientoEtiquetasNumeroAtomico();
     }//GEN-LAST:event_btnOrdenamientoNumeroAtomicoActionPerformed
+
+    private void btnOrdenamientoIsotoposActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdenamientoIsotoposActionPerformed
+        lblTituloOrdenamiento.setText("Ordenamiento por Cantidad Isotopos");
+        OrdenamientoCantIsotopos();
+    }//GEN-LAST:event_btnOrdenamientoIsotoposActionPerformed
 
     /**
      * @param args the command line arguments
@@ -669,7 +683,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         Icon icono2 = new ImageIcon(imagen2.getImage().getScaledInstance(lblFondoTemperatura.getWidth(),
                 lblFondoTemperatura.getHeight(), Image.SCALE_DEFAULT));
         lblFondoTemperatura.setIcon(icono2);
-        
+
         ImageIcon imagen3 = new ImageIcon("src/Multimedia/Fondos/fondoMenu.jpeg");
         Icon icono3 = new ImageIcon(imagen3.getImage().getScaledInstance(lblFondoOrdenamiento.getWidth(),
                 lblFondoOrdenamiento.getHeight(), Image.SCALE_DEFAULT));
@@ -927,7 +941,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
 
                     MatrizEtiquetasOrdenadas[i][j].setText(miListaOrdenada.get(contador).getSimboloAtomico()
                             + " - " + miListaOrdenada.get(contador).getNumeroAtomico());
-                    MatrizEtiquetasOrdenadas[i][j].setBackground(Color.LIGHT_GRAY);
+                    MatrizEtiquetasOrdenadas[i][j].setBackground(Color.CYAN);
 
                 }
                 contador++;
@@ -992,9 +1006,9 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
 
     }
 
-     /**
-     * Este metodo consigue una lista ordenada por nuemro Atomico y coloca los valores
-     * en las etiquetas
+    /**
+     * Este metodo consigue una lista ordenada por nuemro Atomico y coloca los
+     * valores en las etiquetas
      */
     public void OrdenamientoEtiquetasNumeroAtomico() {
         int contador = 0;
@@ -1003,10 +1017,10 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         for (int i = 0; i < 7; i++) {
             for (int j = 0; j < 17; j++) {
                 if (contador <= 117) {
-                    
+
                     MatrizEtiquetasOrdenadas[i][j].setText(miListaOrdenada.get(contador).getSimboloAtomico()
                             + " - " + miListaOrdenada.get(contador).getNumeroAtomico());
-                   MatrizEtiquetasOrdenadas[i][j].setBackground(Color.GRAY);
+                    MatrizEtiquetasOrdenadas[i][j].setBackground(Color.GRAY);
 
                 }
                 contador++;
@@ -1014,9 +1028,34 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         }
 
     }
-    
+
+    /**
+     * Este metodo consigue una lista ordenada por cantidad de Isotopos y coloca
+     * los valores en las etiquetas
+     */
+    public void OrdenamientoCantIsotopos() {
+        int contador = 0;
+        List<Elemento> miListaOrdenada = main.miControlador.OrdenamientoCantIsotopos();
+        //System.out.println(miListaOrdenada.toString());
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 17; j++) {
+                if (contador <= 117) {
+
+                    MatrizEtiquetasOrdenadas[i][j].setText(miListaOrdenada.get(contador).getSimboloAtomico()
+                            + " - " + miListaOrdenada.get(contador).getCantidadIsotopos());
+                    MatrizEtiquetasOrdenadas[i][j].setBackground(Color.YELLOW);
+
+                }
+                contador++;
+            }
+        }
+
+    }
+
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnOrdenamientoFamilia;
+    private javax.swing.JButton btnOrdenamientoIsotopos;
     private javax.swing.JButton btnOrdenamientoNumeroAtomico;
     private javax.swing.JButton btnOrdenarAlfabeticamente;
     private javax.swing.JButton btnTemperatura;

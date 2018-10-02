@@ -112,7 +112,7 @@ public class ControladorPrincipal {
 
     /**
      * Este metodo genera una lista de elementos y la retorna al frmTablaPeriodica
-     * @return 
+     * @return List
      */
     public List<Elemento> OrdenamientoAlfaBetico() {
         List<Elemento> temporal = miTabla.OrdenamientoAlfaBetico();
@@ -120,7 +120,7 @@ public class ControladorPrincipal {
     }
     /**
      * Este metodo genera una lista de elementos y la retorna al frmTablaPeriodica
-     * @return 
+     * @return List
      */
     public List<Elemento> OrdenamientoFamilia(){
         List<Elemento> temporal = miTabla.OrdenamientoFamilia();
@@ -129,10 +129,18 @@ public class ControladorPrincipal {
     
     /**
      * Este metodo genera una lista de elementos y la retorna al frmTablaPeriodica
-     * @return 
+     * @return List
      */
     public List<Elemento> OrdenamientoNumeroAtomico(){
         List<Elemento> temporal = miTabla.OrdenamientoNumeroAtomico();
+        return temporal;
+    }
+    /**
+     * Este metodo genera una lista de elementos y la retorna al frmTablaPeriodica
+     * @return List
+     */
+    public List<Elemento> OrdenamientoCantIsotopos(){
+        List<Elemento> temporal = miTabla.OrdenamientoCantIsotopos();
         return temporal;
     }
 

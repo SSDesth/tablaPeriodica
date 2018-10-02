@@ -156,6 +156,7 @@ public class TablaPeriodica {
        return temporal;
     
     }
+    
     /**
      * Este metodo retorna una lista con los elementos ordenados por Numero Atomico
      * @return List 
@@ -166,11 +167,26 @@ public class TablaPeriodica {
         Collections.sort(temporal, new Comparator<Elemento>() {
             @Override
             public int compare(Elemento objeto1, Elemento objeto2) {
-                return objeto1.getNumeroAtomico()+"".compareTo(objeto2.getNumeroAtomico()+"");
+                return new Integer(objeto1.getNumeroAtomico()).compareTo(new Integer(objeto2.getNumeroAtomico()));
             }
         });
        return temporal;
+    }
     
+    /**
+     * Este metodo retorna una lista con los elementos ordenados por cantidad De Isotopos
+     * @return List 
+     */
+    public List<Elemento> OrdenamientoCantIsotopos(){
+      
+        List<Elemento> temporal = elementos;
+        Collections.sort(temporal, new Comparator<Elemento>() {
+            @Override
+            public int compare(Elemento objeto1, Elemento objeto2) {
+                return new Integer(objeto1.getCantidadIsotopos()).compareTo(new Integer(objeto2.getCantidadIsotopos()));
+            }
+        });
+       return temporal;
     }
 
 }
