@@ -56,10 +56,12 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         jPanelMatriz2 = new javax.swing.JPanel();
         lblMatriz2 = new javax.swing.JLabel();
         jPanelInfo = new javax.swing.JPanel();
+        lblElementoIMG = new javax.swing.JLabel();
         lblElemento = new javax.swing.JLabel();
         lblNumeroAtomico = new javax.swing.JLabel();
         lblSimboloAtomico = new javax.swing.JLabel();
         lblPesoAtomico = new javax.swing.JLabel();
+        lblinfo = new javax.swing.JLabel();
         lblCantIsotopos = new javax.swing.JLabel();
         lblNombreAtomico = new javax.swing.JLabel();
         lblFamiliaAtomica = new javax.swing.JLabel();
@@ -128,7 +130,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
             jPanelMatriz2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelMatriz2Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(lblMatriz2, javax.swing.GroupLayout.PREFERRED_SIZE, 701, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(lblMatriz2))
         );
         jPanelMatriz2Layout.setVerticalGroup(
             jPanelMatriz2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -139,6 +141,12 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
 
         jPanelInfo.setBackground(new java.awt.Color(0, 102, 255));
         jPanelInfo.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        lblElementoIMG.setFont(new java.awt.Font("DejaVu Sans Mono", 2, 24)); // NOI18N
+        lblElementoIMG.setForeground(new java.awt.Color(254, 254, 254));
+        lblElementoIMG.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblElementoIMG.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanelInfo.add(lblElementoIMG, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 210, 130));
 
         lblElemento.setFont(new java.awt.Font("DejaVu Sans Mono", 2, 24)); // NOI18N
         lblElemento.setForeground(new java.awt.Color(254, 254, 254));
@@ -160,6 +168,11 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         lblPesoAtomico.setForeground(new java.awt.Color(254, 254, 254));
         lblPesoAtomico.setText("Peso Atomico:");
         jPanelInfo.add(lblPesoAtomico, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 228, -1));
+
+        lblinfo.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
+        lblinfo.setForeground(new java.awt.Color(254, 254, 254));
+        lblinfo.setText("Ejemplo del elemento");
+        jPanelInfo.add(lblinfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, 228, -1));
 
         lblCantIsotopos.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
         lblCantIsotopos.setForeground(new java.awt.Color(254, 254, 254));
@@ -196,8 +209,8 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
                     .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jpTablaPeriodicaLayout.createSequentialGroup()
                         .addGroup(jpTablaPeriodicaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jPanelMatriz2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanelMatriz1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanelMatriz1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanelMatriz2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanelInfo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -491,7 +504,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
      * @param evt: ActionEvent
      */
     private void jSliderTemperaturaStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jSliderTemperaturaStateChanged
-        lblTempActual.setText("Temperatura Actual: " + jSliderTemperatura.getValue());
+        lblTempActual.setText("Temperatura Actual: " + jSliderTemperatura.getValue()+" K");
     }//GEN-LAST:event_jSliderTemperaturaStateChanged
 
     private void jTabbedPane2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jTabbedPane2StateChanged
@@ -727,6 +740,12 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
         lblTemperaturaMaxSolido.setText("Temp. Max. Solido: " + Entrada.getTemperaturaMaxSolido());
         lblTemperaturaMaxLiquido.setText("Temp. Max. Liquido: " + Entrada.getTemperaturaMaxLiquido());
         lblCantIsotopos.setText("Cant. Isotopos: " + Entrada.getCantidadIsotopos());
+        
+        ImageIcon imagen = new ImageIcon("src/Multimedia/Elementos/"+Entrada.getNumeroAtomico()+".jpg");
+        Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(lblElementoIMG.getWidth(),
+                lblElementoIMG.getHeight(), Image.SCALE_DEFAULT));
+        lblElementoIMG.setIcon(icono);
+        
     }
 
     /**
@@ -1085,6 +1104,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
     private javax.swing.JPanel jpTablaPeriodica;
     private javax.swing.JLabel lblCantIsotopos;
     private javax.swing.JLabel lblElemento;
+    private javax.swing.JLabel lblElementoIMG;
     private javax.swing.JLabel lblFamiliaAtomica;
     private javax.swing.JLabel lblFondoMostrar;
     private javax.swing.JLabel lblFondoOrdenamiento;
@@ -1099,6 +1119,7 @@ public class frmTablaPeriodica extends javax.swing.JFrame {
     private javax.swing.JLabel lblTemperaturaMaxLiquido;
     private javax.swing.JLabel lblTemperaturaMaxSolido;
     private javax.swing.JLabel lblTituloOrdenamiento;
+    private javax.swing.JLabel lblinfo;
     private javax.swing.JTextArea taCaracteristicas;
     // End of variables declaration//GEN-END:variables
 }
